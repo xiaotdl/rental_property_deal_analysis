@@ -1,5 +1,4 @@
 # MARKET & PROPERTY SCREENING
-
 - demographics growth (national avg 9.7%), look for 25%, try understand why it grows
 - job/employment growth, try understand why it grows
 - crime rate low, search on Trullia.com for crime map, consult local policy department
