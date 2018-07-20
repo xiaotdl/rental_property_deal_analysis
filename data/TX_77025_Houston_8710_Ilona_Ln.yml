@@ -1,0 +1,36 @@
+PROPERTY:
+    ADDRESS: "8710 Ilona Ln, Houston, TX 77025"
+    LINK: "http://www.loopnet.com/Listing/8710-Ilona-Ln-Houston-TX/11896883/"
+    DESCRIPTION: "'INVEST-A-LIVE!' Or Just Invest! LOCATION! LOCATION! LOCATION! Awesome Opportunity to own Four unit building in Historic Braes Manor Area in Meyerland/Medical Center. This Fourplex includes two (2) 3 Bedroom Units and two (2) 2 Bedroom Units. Currently 100% occupied the tenants pay their own expenses. Very Easy to Manage. Each Unit has tile with carpet in the bedrooms and Very large Master Bedrooms. Great Opportunty to own in highly desirable area!"
+    BEDROOMS: 10
+    BATHROOMS: 4
+    UNITS: 4
+    SQFTS: 5480
+
+PURCHASE:
+    PURCHASE_PRICE: 550000
+    IMPROVEMENT_COST: 10000
+    CLOSING_COST: 8000
+
+FINANCING:
+    MORTGAGE_LOAN_DOWNPAY_PERCENTAGE: 0.20
+    MORTGAGE_LOAN_YRS: 30
+    MORTGAGE_LOAN_APR: 0.05
+
+INCOME:
+    MONTHLY_RENT: 4635
+    VACANCY_RATE: 0.05
+    MONTHLY_OTHER_INCOME: 0
+
+EXPENSES:
+    PROPERTY_TAX_RATE: 0.0242
+    MONTHLY_INSURANCE: 400
+    MONTHLY_HOA: 0
+    MONTHLY_MAINTENANCE: 200
+    PROPERTY_MANAGEMENT_FEE_RATE: 0.06
+    MONTHLY_UTILITIES: 200
+    MONTHLY_ADVERTISING: 0
+    MONTHLY_LANDSCAPING: 50 
+
+MISC:
+    PROPERTY_APPRECIATION_RATE: 0.02

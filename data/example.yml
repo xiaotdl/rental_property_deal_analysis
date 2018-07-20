@@ -1,0 +1,37 @@
+PROPERTY:
+    ADDRESS: "example address"
+    LINK: "https://www.biggerpockets.com/renewsblog/2010/06/30/introduction-to-real-estate-analysis-investing/"
+    DESCRIPTION: "Welcome home to this rare 3 bedroom/2 bath 3rd floor residence at Midtown Plaza! This quiet corner unit is situated in a courtyard setting overlooking the serene grounds. Immaculate kitchen with breakfast bar opens up to a spacious dining and living area. Master bedroom features a walk-in closet with a personalized closet system , dual vanity, and large custom block glass shower. This well thought out floor plan also includes designer paint throughout, plantation shutters, hardwood flooring, ceiling fans in all rooms, energy efficient LED lighting, executive desk in 3rd bedroom, and 2 side-by-side parking spaces in a secure underground garage. Outstanding location is minutes from the upcoming Google Campus, Downtown San Jose, Caltrain, Light-rail, and freeways which make this location ideal for commuters. Numerous amenities including a pool/spa, gym, clubhouse, and security monitoring. One block to Safeway, Starbucks, Smart and Final, and so much more! Get ready for this rarely available floor plan!
+"
+    BEDROOMS: 5
+    BATHROOMS: 5
+    UNITS: 8
+    SQFTS: 1000
+
+PURCHASE:
+    PURCHASE_PRICE: 400000
+    IMPROVEMENT_COST: 10000
+    CLOSING_COST: 8000
+
+FINANCING:
+    MORTGAGE_LOAN_DOWNPAY_PERCENTAGE: 0.20
+    MORTGAGE_LOAN_YRS: 30
+    MORTGAGE_LOAN_APR: 0.07
+
+INCOME:
+    MONTHLY_RENT: 4500
+    VACANCY_RATE: 0.12
+    MONTHLY_OTHER_INCOME: 200
+
+EXPENSES:
+    PROPERTY_TAX_RATE: 0.01
+    MONTHLY_INSURANCE: 50
+    MONTHLY_HOA: 0
+    MONTHLY_MAINTENANCE: 250
+    PROPERTY_MANAGEMENT_FEE_RATE: 0.06
+    MONTHLY_UTILITIES: 167
+    MONTHLY_ADVERTISING: 25
+    MONTHLY_LANDSCAPING: 0
+
+MISC:
+    PROPERTY_APPRECIATION_RATE: 0.02
