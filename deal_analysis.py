@@ -124,7 +124,7 @@ class Financing(object):
         'MORTGAGE_LOAN_YRS',
         '_MORTGAGE_LOAN_APR_FMT',
         '_MONTHLY_MORTGAGE_LOAN_PAYMENT',
-        '_TOTAL_DOWNPAY_AMOUNT',
+        '_TOTAL_CASH_OUTLAY',
     ]
 
     MORTGAGE_LOAN_DOWNPAY_PERCENTAGE = DATA["FINANCING"]["MORTGAGE_LOAN_DOWNPAY_PERCENTAGE"]
@@ -143,7 +143,7 @@ class Financing(object):
         )
     _ANNUAL_MORTGAGE_LOAN_PAYMENT = _MONTHLY_MORTGAGE_LOAN_PAYMENT * 12
 
-    _TOTAL_DOWNPAY_AMOUNT = _MORTGAGE_LOAN_DOWNPAY_AMOUNT + Purchase.IMPROVEMENT_COST + Purchase.CLOSING_COST
+    _TOTAL_CASH_OUTLAY = _MORTGAGE_LOAN_DOWNPAY_AMOUNT + Purchase.IMPROVEMENT_COST + Purchase.CLOSING_COST
 
 
 class Income(object):
@@ -180,12 +180,12 @@ class Expenses(object):
     __source = ['pro-forma', 'building inspector could help warn you about any major repairs that may be coming due in the near future (new roof, new heating/AC, etc)']
     __attrs_order = [
         '_PROPERTY_MANAGEMENT_FEE_RATE_FMT',
+        '_MONTHLY_PROPERTY_MANAGEMENT_FEE',
         '_PROPERTY_TAX_RATE_FMT',
         '_MONTHLY_PROPERTY_TAX',
         'MONTHLY_INSURANCE',
         'MONTHLY_HOA',
         'MONTHLY_MAINTENANCE',
-        '_MONTHLY_PROPERTY_MANAGEMENT_FEE',
         'MONTHLY_UTILITIES',
         'MONTHLY_ADVERTISING',
         'MONTHLY_LANDSCAPING',
@@ -279,7 +279,7 @@ class Metrics(object):
     _NOI = Income._ANNUAL_GROSS_INCOME - Expenses._TOTAL_ANNUAL_EXPENSES
 
     # CASH_FLOW = NOI - DEBT
-    _CASH_FLOW = _NOI - Financing._ANNUAL_MORTGAGE_LOAN_PAYMENT # 
+    _CASH_FLOW = _NOI - Financing._ANNUAL_MORTGAGE_LOAN_PAYMENT
     _MONTHLY_CASH_FLOW = rounddown(_CASH_FLOW / 12)
 
     # DSCR = NOI / DEBT
@@ -287,18 +287,18 @@ class Metrics(object):
     _DSCR_FMT = "%.2f%%" % (_DSCR * 100)
 
     # ROI = CASH_FLOW / INVESTMENT_BASIS
-    # ---------------------------------- 
-    # CAP_RATE = NOI / TOTAL_COST 
+    # ----------------------------------
+    # CAP_RATE = NOI / TOTAL_COST
     # CASH_ROI = CASH_ON_CASH_RETURN = CASH_FLOW / TOTAL_OUT_OF_POCKET
     # TOTAL_ROI = (CASH_FLOW + PROPERTY_APPRECIATION + EQUITY_ACCURAL + TAX_CONSEQUENCES) / TOTAL_COST
     _CAP_RATE = _NOI / Purchase._TOTAL_COST # EXPECT: 10%+
     _CAP_RATE_FMT = "%.2f%%" % (_CAP_RATE * 100)
 
-    _CASH_ROI = _CASH_FLOW / Financing._TOTAL_DOWNPAY_AMOUNT # EXPECT: 10%+
-    _CASH_ROI_FMT = "%.2f%%" % (_CASH_ROI * 100) 
+    _CASH_ROI = _CASH_FLOW / Financing._TOTAL_CASH_OUTLAY # EXPECT: 10%+
+    _CASH_ROI_FMT = "%.2f%%" % (_CASH_ROI * 100)
 
-    _TOTAL_ROI = (_CASH_FLOW + Misc._PROPERTY_APPRECIATION_AMOUNT + Misc._EQUITY_ACCURAL_AMOUNT + 0) / Financing._TOTAL_DOWNPAY_AMOUNT
-    _TOTAL_ROI_FMT = "%.2f%%" % (_TOTAL_ROI * 100) 
+    _TOTAL_ROI = (_CASH_FLOW + Misc._PROPERTY_APPRECIATION_AMOUNT + Misc._EQUITY_ACCURAL_AMOUNT + 0) / Financing._TOTAL_CASH_OUTLAY
+    _TOTAL_ROI_FMT = "%.2f%%" % (_TOTAL_ROI * 100)
 
 
 class Summary(object):
@@ -306,7 +306,7 @@ class Summary(object):
     __attrs_order = [
         'PURCHASE_PRICE',
         'TOTAL_COST',
-        'DOWNPAY',
+        'TOTAL_CASH_OUTLAY',
 
         'ANNUAL_GROSS_INCOME',
         'ANNUAL_EXPENSES',
@@ -314,14 +314,14 @@ class Summary(object):
         'ANNUAL_MORTGAGE_PAYMENT',
         'ANNUAL_CASH_FLOW',
 
-        'CAP_RATE', 
+        'CAP_RATE',
         'CASH_ROI',
         'TOTAL_ROI',
     ]
 
     PURCHASE_PRICE = Purchase.PURCHASE_PRICE
     TOTAL_COST = Purchase._TOTAL_COST
-    DOWNPAY = Financing._TOTAL_DOWNPAY_AMOUNT
+    TOTAL_CASH_OUTLAY = Financing._TOTAL_CASH_OUTLAY
 
     ANNUAL_GROSS_INCOME = '+%s' % Income._ANNUAL_GROSS_INCOME
     ANNUAL_EXPENSES = '-%s' % Expenses._TOTAL_ANNUAL_EXPENSES
