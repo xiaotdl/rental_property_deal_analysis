@@ -17,13 +17,14 @@ if len(sys.argv) >= 2:
 else:
     data_file = "data/example.yml"
 
+OUTPUT_PREFIX = 'https://raw.githubusercontent.com/xiaotdl/rental_property_deal_analysis/master/'
 OUTPUT_DIR = 'result'
 WRITE_TO_OUTPUT_DIR = False
 if len(sys.argv) >= 3 and sys.argv[2]:
     WRITE_TO_OUTPUT_DIR = True
 
 DATA = None
-print "importing data from %s" % data_file
+print "input: %s" % OUTPUT_PREFIX+data_file
 with open(data_file, 'r') as f:
     try:
         DATA = yaml.load(f)
@@ -209,6 +210,7 @@ class Expenses(object):
     MONTHLY_HOA = DATA["EXPENSES"]["MONTHLY_HOA"]
     _ANNUAL_HOA = MONTHLY_HOA * 12
 
+    # Maintenance & Repair + Grounds Maintenance + Cleaning + Pest Control
     MONTHLY_MAINTENANCE = DATA["EXPENSES"]["MONTHLY_MAINTENANCE"]
     _ANNUAL_MAINTENANCE = MONTHLY_MAINTENANCE * 12
 
@@ -338,7 +340,9 @@ def main():
     stream = sys.stdout
     if WRITE_TO_OUTPUT_DIR:
         outfilename = os.path.splitext(os.path.basename(data_file))[0] + '.txt'
-        stream = open(os.path.join(OUTPUT_DIR, outfilename), 'w')
+        outfile = os.path.join(OUTPUT_DIR, outfilename)
+        stream = open(outfile, 'w')
+        print "output: %s" % OUTPUT_PREFIX+outfile
 
     show(Property, stream=stream)
     show(Purchase, stream=stream)
