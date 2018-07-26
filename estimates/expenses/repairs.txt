@@ -1,0 +1,22 @@
+Interior_Repairs:
+    HVAC: 2500 
+    Cabinets: 200
+    Appliances: 1200
+    Doors: 400
+    Flooring: 2400
+    Insulation: 0
+
+Exterior_Repairs:
+    Roof: 100
+    Concrete: 0 
+    Gutters: 0
+    Garage: 500
+    Siding: 5000
+    Window: 3400
+    Landscaping: 500
+    Painting: 2500
+    Septic: 0
+    Deck: 0
+    Foundation: 0
+    Other: 2000
+

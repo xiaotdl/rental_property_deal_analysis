@@ -1,0 +1,14 @@
+CapEx:
+    Roof: 5000, 25yrs
+    Water_Heater: 600, 10yrs
+    All_Appliances: 1000, 10yrs
+    Driveway_Or_Parking_Lot: 5000, 50yrs
+    HVAC: 3000, 20yrs
+    Flooring: 2000, 6yrs
+    Plumbing: 3000, 30yrs
+    Windows: 5000, 50yrs
+    Paint: 2500, 5yrs
+    Cabinets_Or_Counters: 3000, 20yrs
+    Structure(foundation, framing): 10000, 50yrs
+    Components(garage door, etc.): 1000, 10yrs 
+    Landscaping: 1000, 10yrs
