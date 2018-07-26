@@ -10,3 +10,19 @@
 ## Buisiness
 - Rich Dad Poor Dad, Robert Kiyosaki & Shron Lechter
 - Rich Dad's Cashflow Quadrant: Guide to Financial Freedom, Robert Kiyosaki
+
+## TOREAD
+- The Unofficial Guide To Real Estate Investing, Spencer Strauss & Martin Stone
+- Investing In Duplexes, Triplexes, and Quads, Larry B. Loftis
+- What Every Real Estate Investor Needs To Know About Cash Flow..., Frank Gallinelli
+- The Millionaire Real Estate Investor, Gary Keller & Jay Papasan
+- The Richest Man In Babylon, George S. Clason
+
+
+
+
+
+
+
+
+
