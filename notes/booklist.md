@@ -7,6 +7,7 @@
 - The ABCs of Property Management, by Ken McElroy
 - The Book on Rental Property Investing, by Brandon Turner
 - The Millionaire Real Estate Investor, by Gary Keller & Jay Papasan
+- Long-Distance Real Estate Investing, by David Greene
 
 ### TOREAD
 - The Book on Flipping Houses: How to Buy, Rehab, and Resell Residential Properties, by J Scott
