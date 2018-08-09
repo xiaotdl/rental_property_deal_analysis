@@ -40,7 +40,7 @@ price-to-rent ratio:
   1/(12\*0.01)=8.33 
 
 vacancy:
--  national average: 2014, 7.6%; 2009, 10.6%; 1981, 5.0%
+- national average: 2014, 7.6%; 2009, 10.6%; 1981, 5.0%
 - U.S. Census Bureau
 - ask agent, comparative market analysis on local rental property stats
 - ask property manager
