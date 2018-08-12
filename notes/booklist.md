@@ -8,6 +8,7 @@
 - The Book on Rental Property Investing, by Brandon Turner
 - The Millionaire Real Estate Investor, by Gary Keller & Jay Papasan
 - Long-Distance Real Estate Investing, by David Greene
+- The Turnkey Revolution, by Christopher D. Clothier
 
 ### TOREAD
 - The Book on Flipping Houses: How to Buy, Rehab, and Resell Residential Properties, by J Scott
@@ -22,6 +23,7 @@ by Matthew A. Martinez
 ## Buisiness
 - Rich Dad Poor Dad, by Robert Kiyosaki & Shron Lechter
 - Rich Dad's Cashflow Quadrant: Guide to Financial Freedom, by Robert Kiyosaki
+- The Richest Man In Babylon, by George S. Clason
 
 ### TOREAD
-- The Richest Man In Babylon, by George S. Clason
+- How to Win Friends & Influence People, by Dale Carnegie
