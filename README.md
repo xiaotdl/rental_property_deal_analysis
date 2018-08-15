@@ -30,7 +30,14 @@ input: https://raw.githubusercontent.com/xiaotdl/rental_property_deal_analysis/m
 output: https://raw.githubusercontent.com/xiaotdl/rental_property_deal_analysis/master/result/example.txt
 ```
 
-## Review Results 
+## Other
+
+### Review Results
 ```
 $ tail result/*MemphisInvest*
+```
+
+### Refresh Results 
+```
+$ ./refresh.py
 ```
