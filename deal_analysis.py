@@ -307,6 +307,7 @@ class Metrics(object):
 class Summary(object):
     __name = "SUMMARY"
     __attrs_order = [
+        'RENT_TO_PRICE_RATIO',
         'PURCHASE_PRICE',
         'TOTAL_COST',
         'TOTAL_CASH_OUTLAY',
@@ -321,6 +322,8 @@ class Summary(object):
         'CASH_ROI',
         'TOTAL_ROI',
     ]
+
+    RENT_TO_PRICE_RATIO = "%.2f%%" % (Income.MONTHLY_RENT / Purchase.PURCHASE_PRICE * 100)
 
     PURCHASE_PRICE = Purchase.PURCHASE_PRICE
     TOTAL_COST = Purchase._TOTAL_COST
@@ -349,9 +352,9 @@ def main():
 
     show(Property, stream=stream)
     show(Purchase, stream=stream)
-    show(Financing, stream=stream)
     show(Income, stream=stream)
     show(Expenses, stream=stream)
+    show(Financing, stream=stream)
     show(Misc, stream=stream)
     show(Metrics, stream=stream)
     show(Summary, stream=stream)
