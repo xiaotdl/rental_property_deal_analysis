@@ -29,3 +29,8 @@ $ ./deal_analysis.py data/example.yml 1
 input: https://raw.githubusercontent.com/xiaotdl/rental_property_deal_analysis/master/data/example.yml
 output: https://raw.githubusercontent.com/xiaotdl/rental_property_deal_analysis/master/result/example.txt
 ```
+
+## Review Results 
+```
+$ tail result/*MemphisInvest*
+```
