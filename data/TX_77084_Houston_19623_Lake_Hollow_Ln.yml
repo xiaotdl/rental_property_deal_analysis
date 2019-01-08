@@ -1,0 +1,38 @@
+PROPERTY:
+    ADDRESS: "19623 Lake Hollow Ln, Houston, TX 77084"
+    LINK: "https://www.redfin.com/TX/Houston/19623-Lake-Hollow-Ln-77084/home/30471294"
+    DESCRIPTION: "Cozy, well loved 3 bedroom, 2 bath home. Nice backyard with gate out to green space behind the house. Tree lined streets and mature trees provide shade in both the front and back yards. Spacious master sweet, with dual sinks and separate tub and shower. Island kitchen with breakfast area. Large living area with laminate wood floors and fireplace. Schedule an appointment to see it today!"
+    BEDROOMS: 3
+    BATHROOMS: 2
+    GARAGE: 2
+    UNITS: 2
+    SQFTS: 1618
+    YEAR_BUILT: 1983
+
+PURCHASE:
+    PURCHASE_PRICE: 160000
+    IMPROVEMENT_COST: 1500
+    CLOSING_COST: 5653.72
+
+INCOME:
+    MONTHLY_RENT: 1450
+    VACANCY_RATE: 0.08
+    MONTHLY_OTHER_INCOME: 0
+
+EXPENSES:
+    PROPERTY_TAX_RATE: 0.028
+    MONTHLY_INSURANCE: 100
+    MONTHLY_HOA: 35
+    MONTHLY_MAINTENANCE: 50
+    PROPERTY_MANAGEMENT_FEE_RATE: 0.00
+    MONTHLY_UTILITIES: 200 
+    MONTHLY_ADVERTISING: 0
+    MONTHLY_LANDSCAPING: 35
+
+FINANCING:
+    MORTGAGE_LOAN_DOWNPAY_PERCENTAGE: 0.25
+    MORTGAGE_LOAN_YRS: 30
+    MORTGAGE_LOAN_APR: 0.05
+
+MISC:
+    PROPERTY_APPRECIATION_RATE: 0.02

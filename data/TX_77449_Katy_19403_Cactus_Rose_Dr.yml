@@ -1,0 +1,38 @@
+PROPERTY:
+    ADDRESS: "19403 Cactus Rose Dr, Katy, TX 77449"
+    LINK: "https://www.redfin.com/TX/Katy/19403-Cactus-Rose-Dr-77449/home/30673963"
+    DESCRIPTION: "Did NOT flood during Harvey! Good investment choice and perfect for Airbnb! Schedule to view for yourself! Tile floors throughout, solar screens, high ceilings, stainless steel appliances, walk in closets, and much more! Beautiful neighborhood! within walking distance of Schools, Shopping, & Community Pool/Splshpd, Park. Only 3 miles from I-10 freeway."
+    BEDROOMS: 4
+    BATHROOMS: 2
+    GARAGE: 2
+    UNITS: 2
+    SQFTS: 1819
+    YEAR_BUILT: 1997
+
+PURCHASE:
+    PURCHASE_PRICE: 170000
+    IMPROVEMENT_COST: 1500
+    CLOSING_COST: 5102.64
+
+INCOME:
+    MONTHLY_RENT: 1600
+    VACANCY_RATE: 0.08
+    MONTHLY_OTHER_INCOME: 0
+
+EXPENSES:
+    PROPERTY_TAX_RATE: 0.031
+    MONTHLY_INSURANCE: 100
+    MONTHLY_HOA: 35
+    MONTHLY_MAINTENANCE: 50
+    PROPERTY_MANAGEMENT_FEE_RATE: 0.00
+    MONTHLY_UTILITIES: 200
+    MONTHLY_ADVERTISING: 0
+    MONTHLY_LANDSCAPING: 35
+
+FINANCING:
+    MORTGAGE_LOAN_DOWNPAY_PERCENTAGE: 0.25
+    MORTGAGE_LOAN_YRS: 30
+    MORTGAGE_LOAN_APR: 0.05
+
+MISC:
+    PROPERTY_APPRECIATION_RATE: 0.02
