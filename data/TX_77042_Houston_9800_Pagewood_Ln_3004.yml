@@ -1,0 +1,39 @@
+PROPERTY:
+    ADDRESS: "9800 PAGEWOOD LANE #3004, HOUSTON, TX 77042"
+    LINK: "https://www.har.com/homedetail/9800-pagewood-ln-3004-houston-tx-77042/9922171"
+    DESCRIPTION: "Immaculate 2 story town home, 2 bedroom 2 bathroom upstairs, and a half bathroom with living, dining, downstairs and 2 car attached garage. Mini front yard in front is great for barbecue. The community has a outdoor pool, and close to most retailers stores and highways."
+
+    BEDROOMS: 2
+    BATHROOMS: 2.5
+    GARAGE: 1
+    UNITS: 1
+    SQFTS: 1520
+    YEAR_BUILT: 1984
+
+PURCHASE:
+    PURCHASE_PRICE: 140000
+    IMPROVEMENT_COST: 2000
+    CLOSING_COST: 3000
+
+INCOME:
+    MONTHLY_RENT: 1400
+    VACANCY_RATE: 0.05
+    MONTHLY_OTHER_INCOME: 0
+
+EXPENSES:
+    PROPERTY_TAX_RATE: 0.0266
+    MONTHLY_INSURANCE: 0 # included in HOA
+    MONTHLY_HOA: 360
+    MONTHLY_MAINTENANCE: 50
+    PROPERTY_MANAGEMENT_FEE_RATE: 0.00
+    MONTHLY_UTILITIES: 0 # electricity only, water, garbage, wifi, cable tv are included in HOA
+    MONTHLY_ADVERTISING: 0
+    MONTHLY_LANDSCAPING: 0
+
+FINANCING:
+    MORTGAGE_LOAN_DOWNPAY_PERCENTAGE: 0.20
+    MORTGAGE_LOAN_YRS: 30
+    MORTGAGE_LOAN_APR: 0.05
+
+MISC:
+    PROPERTY_APPRECIATION_RATE: 0.01
