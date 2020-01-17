@@ -1,0 +1,76 @@
+== PROPERTY ==
+ADDRESS: 422 Red Oak Ct, Forney, TX 75126
+LINK: https://www.redfin.com/TX/Forney/422-Red-Oak-Ct-75126/home/33732257
+DESCRIPTION: REDUCED PRICE**Ready for immediate occupancy** REPAIRS REPAIRS DONE**shows great four bedrooms plus study, master down, two large living areas, fireplace, granite counters, loads of closet space, close to I20, Claybon elementary and Warren middle schools, Tile floors, and fresh paint along with many updates. Two-inch blinds thru out home. fenced backyard and covered patio, study downstairs could be a dining room with large closet. Second living area IS Gameroom upstairs, den with fireplace downstairs, light and bright well kept home, quiet culdesac location, lots of counter space in kitchen and 42-inch cabinets * lots of updates*reduced for quick sale at a great price*Luxury masterbath built for a king
+BEDROOMS: 4
+BATHROOMS: 4
+UNITS: 1
+SQFTS: 2655
+
+== PURCHASE ==
+PURCHASE_PRICE: 239000
+IMPROVEMENT_COST: 3000
+CLOSING_COST: 6000
+TOTAL_COST: 248000
+
+== INCOME ==
+MONTHLY_RENT: 2000
+VACANCY_RATE: 8.00%
+MONTHLY_NET_RENT: 1840
+MONTHLY_OTHER_INCOME: 0
+MONTHLY_GROSS_INCOME: 1840
+ANNUAL_GROSS_INCOME: 22080
+
+== EXPENSES ==
+PROPERTY_MANAGEMENT_FEE_RATE: 0.00%
+MONTHLY_PROPERTY_MANAGEMENT_FEE: 0
+PROPERTY_TAX_RATE: 2.80%
+MONTHLY_PROPERTY_TAX: 558
+MONTHLY_INSURANCE: 100
+MONTHLY_HOA: 35
+MONTHLY_MAINTENANCE: 200
+MONTHLY_UTILITIES: 0
+MONTHLY_ADVERTISING: 0
+MONTHLY_LANDSCAPING: 50
+TOTAL_MONTHLY_EXPENSES: 943
+TOTAL_ANNUAL_EXPENSES: 11312
+
+== FINANCING ==
+MORTGAGE_LOAN_DOWNPAY_PERCENTAGE: 25.00%
+MORTGAGE_LOAN_DOWNPAY_AMOUNT: 59750
+MORTGAGE_LOAN_AMOUNT: 179250
+MORTGAGE_LOAN_YRS: 30
+MORTGAGE_LOAN_APR: 5.00%
+MONTHLY_MORTGAGE_LOAN_PAYMENT: 963
+TOTAL_CASH_OUTLAY: 68750
+
+== MISC ==
+PROPERTY_APPRECIATION_RATE: 2.00%
+PROPERTY_APPRECIATION_AMOUNT: 4960
+EQUITY_ACCURAL_AMOUNT: 2644
+
+== METRICS ==
+PRICE_PER_SQFT: 94
+COST_PER_UNIT: 248000
+NOI: 10768
+CASH_FLOW: -788
+MONTHLY_CASH_FLOW: -65
+DSCR: 93.18%
+CAP_RATE: 4.34%
+CASH_ROI: -1.15%
+TOTAL_ROI: 9.91%
+
+== SUMMARY ==
+RENT_TO_PRICE_RATIO: 0.84%
+PURCHASE_PRICE: 239000
+TOTAL_COST: 248000
+TOTAL_CASH_OUTLAY: 68750
+ANNUAL_GROSS_INCOME: +22080
+ANNUAL_EXPENSES: -11312
+NOI: 10768
+ANNUAL_MORTGAGE_PAYMENT: -11556
+ANNUAL_CASH_FLOW: -788
+CAP_RATE: 4.34%
+CASH_ROI: -1.15%
+TOTAL_ROI: 9.91%
+

@@ -1,0 +1,38 @@
+PROPERTY:
+    ADDRESS: "422 Red Oak Ct, Forney, TX 75126"
+    LINK: "https://www.redfin.com/TX/Forney/422-Red-Oak-Ct-75126/home/33732257"
+    DESCRIPTION: "REDUCED PRICE**Ready for immediate occupancy** REPAIRS REPAIRS DONE**shows great four bedrooms plus study, master down, two large living areas, fireplace, granite counters, loads of closet space, close to I20, Claybon elementary and Warren middle schools, Tile floors, and fresh paint along with many updates. Two-inch blinds thru out home. fenced backyard and covered patio, study downstairs could be a dining room with large closet. Second living area IS Gameroom upstairs, den with fireplace downstairs, light and bright well kept home, quiet culdesac location, lots of counter space in kitchen and 42-inch cabinets * lots of updates*reduced for quick sale at a great price*Luxury masterbath built for a king"
+    BEDROOMS: 4
+    BATHROOMS: 4
+    GARAGE: 2
+    UNITS: 1
+    SQFTS: 2655
+    YEAR_BUILT: 2005
+
+PURCHASE:
+    PURCHASE_PRICE: 239000
+    IMPROVEMENT_COST: 3000
+    CLOSING_COST: 6000
+
+INCOME:
+    MONTHLY_RENT: 2000
+    VACANCY_RATE: 0.08
+    MONTHLY_OTHER_INCOME: 0
+
+EXPENSES:
+    PROPERTY_TAX_RATE: 0.028
+    MONTHLY_INSURANCE: 100
+    MONTHLY_HOA: 35
+    MONTHLY_MAINTENANCE: 200
+    PROPERTY_MANAGEMENT_FEE_RATE: 0.00
+    MONTHLY_UTILITIES: 0
+    MONTHLY_ADVERTISING: 0
+    MONTHLY_LANDSCAPING: 50
+
+FINANCING:
+    MORTGAGE_LOAN_DOWNPAY_PERCENTAGE: 0.25
+    MORTGAGE_LOAN_YRS: 30
+    MORTGAGE_LOAN_APR: 0.05
+
+MISC:
+    PROPERTY_APPRECIATION_RATE: 0.02
