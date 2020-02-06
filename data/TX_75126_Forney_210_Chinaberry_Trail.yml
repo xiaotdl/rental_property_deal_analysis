@@ -1,0 +1,38 @@
+PROPERTY:
+    ADDRESS: "210 Chinaberry Trail, Forney, TX 75126"
+    LINK: "https://www.redfin.com/TX/Forney/210-Chinaberry-Trl-75126/home/33732394"
+    DESCRIPTION: "Charming over-sized front porch & mature landscape invite you into this lovely home on corner lot adjacent to community walking trails. Inside you will be greeted by study & formal dining. Kitchen features island, breakfast bar & corian counter tops. Secondary bedroom is are separated by the childrens' retreat or game room. Rest easy in the split floor plan, master suite in the garden tub, separate shower, dual vanity & large closet. Study could be used as 4th bedroom."
+    BEDROOMS: 3
+    BATHROOMS: 2
+    GARAGE: 2
+    UNITS: 1
+    SQFTS: 2510
+    YEAR_BUILT: 2007
+
+PURCHASE:
+    PURCHASE_PRICE: 239000
+    IMPROVEMENT_COST: 3000
+    CLOSING_COST: 6000
+
+INCOME:
+    MONTHLY_RENT: 2000
+    VACANCY_RATE: 0.08
+    MONTHLY_OTHER_INCOME: 0
+
+EXPENSES:
+    PROPERTY_TAX_RATE: 0.026
+    MONTHLY_INSURANCE: 100
+    MONTHLY_HOA: 35
+    MONTHLY_MAINTENANCE: 200
+    PROPERTY_MANAGEMENT_FEE_RATE: 0.00
+    MONTHLY_UTILITIES: 0
+    MONTHLY_ADVERTISING: 0
+    MONTHLY_LANDSCAPING: 50
+
+FINANCING:
+    MORTGAGE_LOAN_DOWNPAY_PERCENTAGE: 0.25
+    MORTGAGE_LOAN_YRS: 30
+    MORTGAGE_LOAN_APR: 0.05
+
+MISC:
+    PROPERTY_APPRECIATION_RATE: 0.02
