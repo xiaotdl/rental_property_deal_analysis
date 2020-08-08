@@ -1,0 +1,36 @@
+PROPERTY:
+    ADDRESS: "14711 Barryknoll Ln #35, Houston, TX 77079"
+    LINK: "https://www.redfin.com/TX/Houston/14711-Barryknoll-Ln-77079/unit-35/home/30359997"
+    DESCRIPTION: "Tastefully updated Energy Corridor townhome, conveniently located near I10 & Beltway 8. 2 bedrooms/2 full bathrooms/1 half bathroom, spacious patio, laundry room (washer & dryer included) and 2 assigned/covered parking spaces directly behind the townhome. Recently remodeled kitchen with granite and stainless appliances. Wood laminate flooring, all bathrooms recently renovated and new siding. All appliances remain in the townhome. Development did not flood during Harvey. This unit is move in ready!"
+    BEDROOMS: 2
+    BATHROOMS: 2.5
+    UNITS: 1
+    SQFTS: 1326
+
+PURCHASE:
+    PURCHASE_PRICE: 150000
+    IMPROVEMENT_COST: 1500
+    CLOSING_COST: 5000
+
+FINANCING:
+    MORTGAGE_LOAN_DOWNPAY_PERCENTAGE: 0.20
+    MORTGAGE_LOAN_YRS: 30
+    MORTGAGE_LOAN_APR: 0.05
+
+INCOME:
+    MONTHLY_RENT: 1500
+    VACANCY_RATE: 0.08
+    MONTHLY_OTHER_INCOME: 0
+
+EXPENSES:
+    PROPERTY_TAX_RATE: 0.03
+    MONTHLY_INSURANCE: 100
+    MONTHLY_HOA: 50
+    MONTHLY_MAINTENANCE: 100
+    PROPERTY_MANAGEMENT_FEE_RATE: 0.06
+    MONTHLY_UTILITIES: 50
+    MONTHLY_ADVERTISING: 0
+    MONTHLY_LANDSCAPING: 0
+
+MISC:
+    PROPERTY_APPRECIATION_RATE: 0.02
